@@ -24,35 +24,41 @@
     <meta name="twitter:description" content="발산 노래방 완전 정리! 실시간 가격, 시설 비교, 찐 후기까지. 발산역 근처 노래방 찾는 사람들을 위한 모든 정보를 한눈에.">
 
     <!-- JSON-LD 스키마 -->
-    <script type="application/ld+json">
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "발산 노래방 정보",
+  "description": "발산역 근처 노래방 정보를 한곳에 모은 사이트. 가격, 시설, 실제 후기까지 확인 가능.",
+  "url": "https://balsan-song-guide.program-school.online/",
+  "telephone": "+82-10-6279-0862",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "발산",
+    "addressRegion": "서울특별시",
+    "addressCountry": "KR"
+  },
+  "areaServed": {
+    "@type": "City",
+    "name": "발산"
+  },
+  "openingHoursSpecification": [
     {
-        "@context": "https://schema.org",
-        "@type": "LocalBusiness",
-        "name": "발산 노래방 정보",
-        "description": "발산역 근처 노래방 정보를 한곳에 모은 사이트. 가격, 시설, 실제 후기까지 확인 가능.",
-        "url": "https://t3b07-bs-kb-info-1.vercel.app/",
-        "telephone": "+82-10-6279-0862",
-        "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "발산",
-            "addressRegion": "서울특별시",
-            "addressCountry": "KR"
-        },
-        "areaServed": {
-            "@type": "City",
-            "name": "발산"
-        },
-        "openingHoursSpecification": [
-            {
-                "@type": "OpeningHoursSpecification",
-                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-                "opens": "00:00",
-                "closes": "23:59"
-            }
-        ],
-        "priceRange": "₩₩"
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "opens": "00:00",
+      "closes": "23:59"
     }
-    </script>
+  ],
+  "priceRange": "₩₩"
+}</script>
 
     <style>
         /* CSS 리셋 및 기본 설정 */
